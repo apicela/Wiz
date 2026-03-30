@@ -142,7 +142,7 @@ investigaria?
 
 ## Quando criar Custom Apex REST
 
-- Quando APIs padrão não atendem
+- Quando APIs padrão não atendem(ex: buscas SOQL, insert, update, etc)
 - Payload com múltiplos objetos
 - Validações complexas
 - Orquestração de lógica de negócio 
