@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proibido_Cancelar_Pedido_Resolvido</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(PRIORVALUE(Status__c), &quot;Resolvido&quot;),
+    ISPICKVAL(Status__c, &quot;Cancelado&quot;)
+)</errorConditionFormula>
+    <errorMessage>Pedidos já resolvidos não podem ser cancelados.</errorMessage>
+</ValidationRule>
