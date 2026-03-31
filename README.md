@@ -1,3 +1,5 @@
+Link do video: https://youtu.be/RwqUoN9pPJ0
+
 # 1. Lógica / Arquitetura / Conceitos Salesforce
 
 ## Pesquisa (Lookup) vs. Mestre-Detalhe (Master-Detail)
